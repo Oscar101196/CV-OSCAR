@@ -1,0 +1,8 @@
+@mixin texts($color,$size,$weight){
+    font-family: $mainFont;
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: 1.3em;
+    text-align: left;
+}

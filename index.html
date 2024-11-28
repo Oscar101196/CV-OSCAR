@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- css main -->
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" href="./assets/img/pixilart-drawing.png" type="image/x-icon">
 </head>
 <body>
     <!-- header -->
@@ -16,7 +17,7 @@
         <nav class="navbar navbar-expand-lg menu">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo-oscar.svg" style="width: 120px" alt="Logo Oscar Peñaranda - Estudinte de NE">
+                    <img src="./assets/img/logo.svg" alt="Logo Oscar Peñaranda - Estudiante de NE">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,19 +25,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Sobre mi</a>
+                            <a class="nav-link" aria-current="page" href="#sobremi">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Referencias</a>
+                            <a class="nav-link" href="#exper">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#interes">Intereses</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contacto</a>
@@ -49,111 +50,117 @@
     </header>
     <!-- end header -->
     <main>
-        <section class="info-principal">
-            <img src="#" alt="foto mia">
-            <div>
-                <h2>Yo soy Oscar Peñaranda</h2>
-                <h3>Desarrollador Frontend</h3>
-                <article>
-                    <div>
-                        <p>Edad:</p>
-                        <p>28</p>
-                    </div>
-                    <div>
-                        <p>Domicilio: </p>
-                        <p>Presidente Camilo Torres Y Tenorio 2471, Flores, CABA</p>
-                    </div>
-                    <div>
-                        <p>Email: </p>
-                        <p>oscar101196@gmail.com</p>
-                    </div>
-                    <div>
-                        <p>Telefono: </p>
-                        <p>1136959389</p>
-                    </div>
-                </article>
-                <div class="redes">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                      </svg>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                      </svg>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                      </svg>
+        <section class="info-principal bg-white" id="sobremi">
+            <div class="row p-5" >
+                <div class="col-md-4">
+                    <img src="./assets/img/perfil.jpg" alt="foto mia" class="w-100" style="background-color: red;">
                 </div>
-            </div>
+                <div class="col-md-8">
+                    <h2 class="info-principal__titulo">Yo soy <span class="fw-bold">Oscar Peñaranda</span></h2>
+                    <h3 class="info-principal__subtitulo pb-2">Desarrollador Frontend - UX/UI Designer</h3>
+                    <article class="contenedor">
+                        <div class="info-principal__datos--texto d-flex gap-1 pt-3">
+                            <p>Edad: </p>
+                            <p class="fw-bold">28</p>
+                        </div>
+                        <div class="info-principal__datos--texto d-flex gap-1">
+                            <p>Domicilio: </p>
+                            <p class="fw-bold">Presidente Camilo Torres Y Tenorio 2471, Flores, CABA</p>
+                        </div>
+                        <div class="info-principal__datos--texto d-flex gap-1">
+                            <p>Email: </p>
+                            <p class="fw-bold">oscar101196@gmail.com</p>
+                        </div>
+                        <div class="info-principal__datos--texto d-flex gap-1">
+                            <p>Telefono: </p>
+                            <p class="fw-bold">1136959389</p>
+                        </div>
+                    </article>
+                </div>
+            </div>  
+                
+            <div class="info-principal__redes p-2 row-2 d-flex justify-content-center align-items-center gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg"   class="bi bi-facebook" viewBox="0 0 16 16">
+                    <a href="https://www.facebook.com/oscar.p.denz/" target="_blank"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></a>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg"   class="bi bi-instagram" viewBox="0 0 16 16">
+                    <a href="https://www.instagram.com/oscar.pdenz/" target="_blank"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/></a>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-github" viewBox="0 0 16 16">
+                    <a href="https://github.com/Oscar101196" target="_blank"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></a>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <a href="https://www.linkedin.com/in/oscarpenarandalavadenz" target="_blank"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></a>
+                </svg>
+            </div>     
         </section>
-        <section class="resumen">
+        <section class="resumen text-center">
             <div>
-                <p>Resumen</p>
+                <p class="resumen__contenedor mx-auto">Resumen</p>
             </div>
-            <p>Bla bla bla</p>
+            <p class="resumen__texto text-center mx-auto f-6 w-50">
+                Buenas! Mi nombre es Oscar, soy estudiante de Diseño web. Curso en Nueva escuela, estoy en mi primer año y me gusta todo lo relacionado con la tecnologia. Tambien estoy interesado en la venta de indumentaria como un emprendimiento personal.
+                Mi objetivo es seguir ampliando mi conocimiento en el mundo de la programacion y poder pulir lo aprendido. Gracias por leer mi CV.
+            </p>
 
         </section>
-        <section class="skills">
-            <h2>Skills Profesionales</h2>
-            <div class="row">
+        <section class="skills container mt-5 border-radius-one mb-5" id="skills">
+            <h2 class="skills__titulo fs-3 text-center pt-2">Skills Profesionales</h2>
+            <div class="skillsHabilidades row pb-3">
                 <div class="col-md-6">
-                    <div>    
+                    <div class="">    
                         <div class="d-flex justify-content-between">
-                            <p>HTML</p>
-                            <p>85%</p>
+                            <p>HTML 5</p>
+                            <p>70%</p>
                         </div>
-                        <img src="#" alt="">
+                        <img src="./assets/img/bar-70.svg" alt="barra-experiencia">
                     </div>
                     <div>    
                         <div class="d-flex justify-content-between">
-                            <p>HTML</p>
-                            <p>85%</p>
+                            <p>CSS</p>
+                            <p>70%</p>
                         </div>
-                        <img src="#" alt="">
+                        <img src="./assets/img/bar-70.svg" alt="barra-experiencia">
                     </div>
                     <div>    
                         <div class="d-flex justify-content-between">
-                            <p>HTML</p>
-                            <p>85%</p>
+                            <p>Js</p>
+                            <p>40%</p>
                         </div>
-                        <img src="#" alt="">
+                        <img src="./assets/img/bar-40.svg" alt="barra-experiencia">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div>    
                         <div class="d-flex justify-content-between">
-                            <p>HTML</p>
-                            <p>85%</p>
+                            <p>Illustrator</p>
+                            <p>80%</p>
                         </div>
-                        <img src="#" alt="">
+                        <img src="./assets/img/bar-80.svg" alt="barra-experiencia">
                     </div>
                     <div>    
                         <div class="d-flex justify-content-between">
-                            <p>HTML</p>
-                            <p>85%</p>
+                            <p>PhotoshopL</p>
+                            <p>70%</p>
                         </div>
-                        <img src="#" alt="">
+                        <img src="./assets/img/bar-70.svg" alt="barra-experiencia">
                     </div>
                     <div>    
                         <div class="d-flex justify-content-between">
-                            <p>HTML</p>
-                            <p>85%</p>
+                            <p>Sass</p>
+                            <p>40%</p>
                         </div>
-                        <img src="#" alt="">
+                        <img src="./assets/img/bar-40.svg" alt="barra-experiencia">
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="portfolio" id="portfolio">
             <h2 class="portfolio__title fs-3 text-center pt-2">
                 Portfolio
             </h2>
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
-                </li>
+                
                 <li class="nav-item" role="presentation">
                   <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">UX/UI</button>
                 </li>
@@ -161,29 +168,98 @@
                   <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Branding</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Web</button>
+                  <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Analisis de Datos</button>
                 </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                TODOS
-            </div>
-            <!--  end todos -->
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                Ux/UI
-            </div>
-            <!-- end ux/ui -->
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-                Branding
-            </div>
-            <!-- end branding -->
-            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-                web development
-            </div>
-            <!-- end desarrollo web -->
+              </ul>
+              <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
+                
+             
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <img src="./assets/img/UX.png" alt="">
+                </div>
+              
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <img src="./assets/img/branding.png" alt="">
+                </div>
+               
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                    <img src="./assets/img/analisis-de-datos.png" alt="">
+                </div>
+               
+              </div>
+        </section>
+
+        <section id="exper" class="experience mt-5">
+            <div class="row">
+                <h2 class="fs-3 text-center pb-3">Work and exprirence</h2>
+                <article class="col-md-6 pt-2">
+                    <div class="border-radius-one border-top-green px-4 mb-3">
+                        <p class="text-green text-center pt-2">2024</p>
+                        <h3 class="fs-4 fw-bold text-center">Nueva Escuela</h3>
+                        <h4 class="fs-6 fw-light text-uppercase text-center">Fullstack developer</h4>
+                        <p class="mt-3">
+                            Curso de diseñador Web en NE - En curso
+                        </p>
+                    </div><!-- end card 1 -->
+                    <div class="border-radius-one border-top-green px-4 mb-3">
+                        <p class="text-green text-center pt-2">2024</p>
+                        <h3 class="fs-4 fw-bold text-center">CallCenter ACC Group</h3>
+                        <h4 class="fs-6 fw-light text-uppercase text-center">Teleoperador</h4>
+                        <p class="mt-3">
+                            Actualmente estoy como teleoperador en un call center para la empresa Ecogas.
+                        </p>
+                    </div><!-- end card 2 -->
+                    <div class="border-radius-one border-top-green px-4 mb-3">
+                        <p class="text-green text-center pt-2">2023</p>
+                        <h3 class="fs-4 fw-bold text-center">Comacchio</h3>
+                        <h4 class="fs-6 fw-light text-uppercase text-center">Cajero</h4>
+                        <p class="mt-3">
+                            Trabaje como cajero en el restaurante gastronomico. Tambien desempeñaba diversas tareas
+                        </p>
+                    </div><!-- end card 3 -->
+                </article><!-- end col 1 --left -->
+                <article class="col-md-6 pt-5">
+                    <div class="border-radius-one border-top-green px-4 mb-3">
+                        <p class="text-green text-center pt-2">2022</p>
+                        <h3 class="fs-4 fw-bold text-center">Codo a Codo 4.0</h3>
+                        <h4 class="fs-6 fw-light text-uppercase text-center">Desarrollador FullStack</h4>
+                        <p class="mt-3">
+                            Comence el el curso asincronico para desarrollador Web de Codo a Codo.
+                        </p>
+                    </div><!-- end card 1 -->
+                    <div class="border-radius-one border-top-green px-4 mb-3">
+                        <p class="text-green text-center pt-2">2019</p>
+                        <h3 class="fs-4 fw-bold text-center">Encargado</h3>
+                        <h4 class="fs-6 fw-light text-uppercase text-center">Coffee Master</h4>
+                        <p class="mt-3">
+                            Estuve como encargado del comedor de la facultad de FIUBA.
+                        </p>
+                    </div><!-- end card 3 -->
+                    <div class="border-radius-one border-top-green px-4 mb-3">
+                        <p class="text-green text-center pt-2">2015</p>
+                        <h3 class="fs-4 fw-bold text-center">Universidad de Buenos Aires</h3>
+                        <h4 class="fs-6 fw-light text-uppercase text-center">CBC</h4>
+                        <p class="mt-3">
+                            Termine el CBC para la carrera de Ingenieria Informatica de la UBA.
+                        </p>
+                    </div><!-- end card 3 -->
+                </article><!-- end col 1 --right -->
+            </div><!-- end row -->
+        </section>
+
+        <section class="interests mt-5 border-radius-one" id="interes">
+            <div class="row py-3 px-5">    
+                <h2 class="fs-3 text-center pt-2">Mis intereses</h2>
+                <p>Disfruto mucho de ver peliculas, resolver problemas al momento de programar, distraerme jugando a los videojuegos y escuchar musica de mi 
+                     playlist personal.</p>             
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/img/icono-lol.png" alt="icono-lol">
+                    <img src="./assets/img/visual-icono.png" alt="icono-visual">
+                    <img src="./assets/img/spotify-icono.png" alt="icono-spotify">
+                    <img src="./assets/img/cine-icon.png"  alt="icono-cine">
+                </div>
             </div>
         </section>
-    
     </main>
 
     <!-- js Bs -->

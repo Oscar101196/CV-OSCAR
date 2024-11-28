@@ -1,0 +1,20 @@
+.header-intro{
+    .menu{
+        background-color: transparent;
+        ul{
+            li{
+                a{
+                    color: white;
+                    &:hover{
+                        color: orange;
+                    }
+                }
+            }
+        }
+        a{
+            img{
+                width: 200px;
+            }
+        }
+    }
+}

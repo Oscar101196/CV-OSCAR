@@ -1,0 +1,19 @@
+//variables
+//colores
+$mainColor: #e97b19;
+$secondaryColor: rgb(88, 85, 85);
+$keyColor:rgb(42, 42, 175);
+$white:rgb(242, 239, 239);
+$black:rgb(20, 20, 20);
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+$mainFont: "Nunito Sans", sans-serif;
+$secondaryFont:verdana;
+$thirdFont:arial;
+
+body{
+    background-image: url(../img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

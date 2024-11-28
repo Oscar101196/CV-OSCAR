@@ -1,3 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+.header-intro .menu {
+  background-color: transparent;
+}
+.header-intro .menu ul li a {
+  color: white;
+}
+.header-intro .menu ul li a:hover {
+  color: orange;
+}
+.header-intro .menu a img {
+  width: 200px;
+}
 
+body {
+  background-image: url(../img/banner.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.contenedor {
+  border-top: 1px solid #e97b19;
+}
+
+.info-principal {
+  width: 70%;
+  border-radius: 1rem;
+  margin: 3.1rem auto;
+}
+.info-principal__titulo {
+  color: rgb(88, 85, 85);
+}
+.info-principal__subtitulo {
+  color: rgb(88, 85, 85);
+  font-size: 1.5rem;
+}
+.info-principal__redes {
+  background-color: #e97b19;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.info-principal__redes svg {
+  text-decoration: none;
+  fill: white;
+  width: 1.5rem;
+  width: 20px;
+}
+.info-principal__datos--texto p {
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(88, 85, 85);
+}
+
+.resumen__contenedor {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid rgb(20, 20, 20);
+  max-width: 300px;
+  min-width: 150px;
+}
+.resumen__contenedor:hover {
+  background-color: rgb(20, 20, 20);
+  color: rgb(242, 239, 239);
+  cursor: pointer;
+}
+.resumen____texto {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.skillsHabilidades div p {
+  font-size: 1.1rem;
+  color: rgb(20, 20, 20);
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.portfolio .nav {
+  text-align: center;
+  justify-content: center;
+}
+.portfolio .nav li {
+  --bs-nav-pills-link-active-bg:transparent;
+  color: rgb(20, 20, 20) !important;
+}
+.portfolio .nav li button {
+  color: rgb(20, 20, 20) !important;
+}
+
+.experience {
+  width: 70%;
+  margin: auto;
+}
+.experience div {
+  border-radius: 10px;
+}
+
+.border-radius-one {
+  padding: 2px;
+  box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.45);
+}
+
+.border-top-green {
+  border-top: green solid 5px;
+}
+
+.interests {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.interests img {
+  width: 80px;
+  border: solid 1px #e97b19;
+  border-radius: 5px;
+  padding: 5px;
+}
 
 /*# sourceMappingURL=main.css.map */

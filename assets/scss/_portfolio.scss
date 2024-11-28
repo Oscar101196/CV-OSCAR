@@ -1,0 +1,15 @@
+.portfolio{
+    .nav{
+        text-align: center;
+        justify-content: center;
+        li{
+            --bs-nav-pills-link-active-bg:transparent;
+            color: $black!important;
+            button{
+                color: $black!important;
+                
+            }
+        }
+    }
+}
+

@@ -1,0 +1,55 @@
+
+.contenedor{
+    border-top: 1px solid $mainColor;
+    
+}
+
+.info-principal{
+    width: 70%;
+    border-radius: 1rem;
+    margin: 3.1rem auto;
+    &__titulo{
+        color: $secondaryColor;
+    }
+    &__subtitulo{
+        color: $secondaryColor;
+        font-size: 1.5rem;
+    }
+    &__redes{
+        background-color: $mainColor;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;  
+        svg{
+            text-decoration: none;
+            fill: white;
+            width: 1.5rem;
+            width: 20px
+        } 
+        
+    }
+    &__datos--texto{
+        p{
+            font-family: $mainFont;
+            color: $secondaryColor;
+        }
+    }
+}
+
+.resumen{
+    &__contenedor{
+        font-family: $mainFont;
+        font-size: 1.5rem;
+        text-align: center;
+        border: 1px solid $black;
+        max-width: 300px;
+        min-width: 150px;
+        &:hover{
+            background-color: $black;
+            color: $white;
+            cursor: pointer;
+        }
+    }
+    &____texto{
+        font-family: $mainFont;
+    }
+}

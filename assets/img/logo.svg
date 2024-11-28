@@ -1,42 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 81.61 12.38">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 81.6 12.4">
   <defs>
     <style>
-      .cls-1 {
-        font-family: MyriadPro-Regular, 'Myriad Pro';
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
       }
 
-      .cls-1, .cls-2 {
-        fill: #1d1d1b;
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        font-size: 10px;
       }
 
-      .cls-3 {
-        fill: #e94e1b;
-      }
-
-      .cls-3, .cls-2, .cls-4 {
+      .cls-1, .cls-3 {
         font-family: Elephant-Italic, Elephant;
         font-style: italic;
       }
 
+      .cls-1, .cls-5 {
+        fill: #e94e1b;
+      }
+
+      .cls-2 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #dadada;
+      }
+
       .cls-5 {
-        font-family: Rockwell-ExtraBold, 'Rockwell Extra Bold';
+        font-family: Rockwell-Bold, Rockwell;
         font-weight: 700;
-      }
-
-      .cls-5, .cls-4 {
-        fill: #36a9e1;
-      }
-
-      .cls-6 {
-        font-size: 10px;
       }
     </style>
   </defs>
   <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
   <g>
     <g id="Capa_1">
-      <text class="cls-6" transform="translate(-1.12 9.57)"><tspan class="cls-3" x="0" y="0">`</tspan><tspan class="cls-4" x="5" y="0">$</tspan><tspan class="cls-2" x="11.75" y="0">{</tspan><tspan class="cls-5" x="15.76" y="0">OSCAR</tspan><tspan class="cls-1" x="54.82" y="0">-</tspan><tspan class="cls-2" x="57.89" y="0">PL</tspan><tspan class="cls-2" x="74.91" y="0">}</tspan><tspan class="cls-3" x="78.92" y="0">`</tspan></text>
+      <g id="Capa_1-2" data-name="Capa_1">
+        <g id="Capa_1-2">
+          <g id="Capa_1-2-2" data-name="Capa_1-2">
+            <g class="cls-4">
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-1" transform="translate(-1.1 9.6)"><tspan x="0" y="0">`</tspan></text>
+                </g>
+              </g>
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-1" transform="translate(3.9 9.6)"><tspan x="0" y="0">$</tspan></text>
+                </g>
+              </g>
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-3" transform="translate(10.6 9.6)"><tspan x="0" y="0">{</tspan></text>
+                </g>
+              </g>
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-5" transform="translate(15.6 9.6)"><tspan x="0" y="0">OSCAR</tspan></text>
+                </g>
+              </g>
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-2" transform="translate(52.9 9.4)"><tspan x="0" y="0">-</tspan></text>
+                </g>
+              </g>
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-3" transform="translate(56.8 9.6)"><tspan x="0" y="0">PL</tspan></text>
+                </g>
+              </g>
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-3" transform="translate(73.8 9.6)"><tspan x="0" y="0">}</tspan></text>
+                </g>
+              </g>
+              <g class="cls-4">
+                <g class="cls-4">
+                  <text class="cls-1" transform="translate(77.8 9.6)"><tspan x="0" y="0">`</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
     </g>
   </g>
 </svg>
